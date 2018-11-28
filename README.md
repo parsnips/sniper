@@ -3,6 +3,29 @@ Sniper
 
 TastyWorks apis on the command line.
 
+```
+mparsons@snipsbook:~/go/src/github.com/parsnips/sniper$ ./sniper
+There are many little commands here.  We can open quote streamer websocket, call search apis.. etc etc.
+
+Usage:
+  sniper [command]
+
+Available Commands:
+  getStreamerToken Retrieve a streamer token for live quote data
+  help             Help about any command
+  optionChain      Get the option chain for an underlying
+  quotes           Open a websocket to receive quotes for a set of underlyings
+  search           Search for an underlying by symbol
+  session          Retrieve a session token from tastyworks
+
+Flags:
+      --config string   config file (default is $HOME/.snipe.yaml)
+  -h, --help            help for sniper
+  -t, --toggle          Help message for toggle
+
+Use "sniper [command] --help" for more information about a command.
+```
+
 TastyNotes
 ---------------------
 
